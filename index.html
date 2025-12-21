@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy – Medicine Reminder</title>
+    <meta name="description" content="Privacy Policy for Medicine Reminder app" />
+
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        color: #111;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+      }
+
+      h2 {
+        margin-top: 32px;
+        font-size: 20px;
+      }
+
+      p {
+        margin: 12px 0;
+      }
+
+      ul {
+        margin: 12px 0 12px 20px;
+      }
+
+      li {
+        margin: 6px 0;
+      }
+
+      .meta {
+        color: #555;
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+
+      footer {
+        margin-top: 48px;
+        padding-top: 16px;
+        border-top: 1px solid #e0e0e0;
+        font-size: 14px;
+        color: #555;
+      }
+
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>Privacy Policy for Medicine Reminder</h1>
+      <p class="meta"><strong>Last updated:</strong> December 21, 2025</p>
+
+      <h2>Data Collection</h2>
+      <p>
+        Medicine Reminder does <strong>NOT</strong> collect, store, or transmit
+        any personal data to external servers. All your medication data is
+        stored locally on your device.
+      </p>
+
+      <h2>Data Storage</h2>
+      <ul>
+        <li>Medication names and schedules are stored in a local SQLite database</li>
+        <li>Settings and preferences are stored using AsyncStorage</li>
+        <li>No data leaves your device</li>
+      </ul>
+
+      <h2>Permissions</h2>
+      <p>The app requests the following permissions:</p>
+      <ul>
+        <li><strong>Notifications</strong> – To send medication reminders</li>
+        <li><strong>Exact Alarms</strong> – To schedule precise reminder times</li>
+        <li><strong>Vibration</strong> – For notification alerts</li>
+      </ul>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        This app uses Google AdMob for advertisements. Please refer to Google's
+        privacy policy for information about ad-related data collection.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If you have questions about this privacy policy, contact:
+        <a href="mailto:petrenko.pavlo.dev@gmail.com">petrenko.pavlo.dev@gmail.com</a>
+      </p>
+
+      <footer>
+        © <span id="year"></span> Medicine Reminder
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
