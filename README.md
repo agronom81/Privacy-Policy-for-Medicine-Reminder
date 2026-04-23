@@ -12,6 +12,17 @@ Medicine Reminder does NOT collect, store, or transmit any personal data to exte
 -   Settings and preferences are stored using AsyncStorage
 -   No data leaves your device
 
+## Data Retention and Deletion
+
+All data used by the app (such as medication names, schedules, and preferences) is stored locally on the user’s device.
+The app does not retain data on external servers.
+Data is stored only for as long as the user continues to use the app. Users can delete their data at any time by:
+
+* Manually clearing app data through the device settings, or
+* Uninstalling the application, which permanently removes all stored data from the device
+
+Once deleted, the data cannot be recovered.
+
 ## Permissions
 
 The app requests the following permissions:
