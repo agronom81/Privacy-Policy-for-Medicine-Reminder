@@ -1,6 +1,6 @@
 # Privacy Policy for Medicine Reminder
 
-**Last updated:** December 21, 2025
+**Last updated:** April 23, 2026
 
 ## Data Collection
 
